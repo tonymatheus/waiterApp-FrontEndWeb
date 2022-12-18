@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import { GlobalStyles } from './styles/GlobalStyles';
-import './App.css';
+
+import { Header } from './components/Header';
 
 function App() {
   const [count, setCount] = useState(0);
@@ -8,7 +9,7 @@ function App() {
   return (
     <>
       <GlobalStyles />
-      <h1>Hello world</h1>
+      <Header />
     </>
   );
 }
