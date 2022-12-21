@@ -17,10 +17,10 @@ export const OrdersBoard = ({ title, icon, orders }: OrdersBoardProps) => {
     setSelectedOrder(order);
   };
 
-  const handleCloseModal = () => {
+  function handleCloseModal() {
     setIsModalVisible(true);
     setSelectedOrder(null);
-  };
+  }
 
   return (
     <Board>
