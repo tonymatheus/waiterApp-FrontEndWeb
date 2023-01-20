@@ -47,3 +47,8 @@ yarn dev
 - [x] Axios
 - [x] React-toastify
 - [x] Socket.io-client
+
+
+## Aplicão Funcionando 
+![Captura de Tela 2023-01-19 às 23 28 18](https://user-images.githubusercontent.com/43850888/213607046-7b44cd44-cfdc-4576-9991-fc5217927c29.png)
+
