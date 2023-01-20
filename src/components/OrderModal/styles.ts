@@ -114,7 +114,12 @@ export const OrderDetails = styled.div`
 export const Actions = styled.footer`
   display: flex;
   flex-direction: column;
-  margin-top:38px;
+  margin-top: 38px;
+
+  button:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+  }
 
   .primary {
     background: #333333;
@@ -135,6 +140,6 @@ export const Actions = styled.footer`
     font-weight: bold;
     border-radius: 48px;
     background: transparent;
-    margin-top:12px;
+    margin-top: 12px;
   }
 `;
